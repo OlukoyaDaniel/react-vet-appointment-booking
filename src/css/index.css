@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+
+/**  Basic Page CSS **/
+body{
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  background-color: #d41313;
+}
+
+header a, footer a{
+  color: rgb(0, 0, 0);
+}
+
+header a:hover, footer a:hover{
+  color: rgb(0, 0, 0);
+}
+
+footer{
+  font-size: 0.8em;
+}
+
+.bg-primary,
+.btn-primary{
+  background-color: #e21829 !important;
+  border: inherit;
+}
